@@ -39,12 +39,20 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\AppState.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\AbstractCrudDao.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\ClientController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\DishController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\MenuController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\ProductController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\RestaurantController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\RowController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\WorkerController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Client.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Dish.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Menu.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Product.cs" />
-        <Compile Include="uk.kiev.ut.itz.kulish\dao\Resaurant.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\dao\Restaurant.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Worker.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\Program.cs" />
     </ItemGroup>

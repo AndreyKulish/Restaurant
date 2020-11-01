@@ -2,7 +2,7 @@
 
 namespace Restaurant.dao
 {
-    public class Resaurant
+    public class Restaurant
     {
         private string _address;
         private List<Worker> _workers;
