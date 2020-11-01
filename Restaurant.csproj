@@ -39,7 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="uk.kiev.ut.itz.kulish\controllers\AppState.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\AppState.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\AbstractCrudDao.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\ClientController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\DishController.cs" />
@@ -53,8 +53,14 @@
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Menu.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Product.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Restaurant.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\dao\Story.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Worker.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\db\PullController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\db\PushController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\Program.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="uk.kiev.ut.itz.kulish\resource" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

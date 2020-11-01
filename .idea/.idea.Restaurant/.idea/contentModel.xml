@@ -14,9 +14,9 @@
       <e p="Restaurant.csproj" t="IncludeRecursive" />
       <e p="Restaurant.sln" t="IncludeFlat" />
       <e p="uk.kiev.ut.itz.kulish" t="Include">
+        <e p="AppState.cs" t="Include" />
         <e p="controllers" t="Include">
           <e p="AbstractCrudDao.cs" t="Include" />
-          <e p="AppState.cs" t="Include" />
           <e p="ClientController.cs" t="Include" />
           <e p="DishController.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
@@ -31,9 +31,15 @@
           <e p="Menu.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="Restaurant.cs" t="Include" />
+          <e p="Story.cs" t="Include" />
           <e p="Worker.cs" t="Include" />
         </e>
+        <e p="db" t="Include">
+          <e p="PullController.cs" t="Include" />
+          <e p="PushController.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
+        <e p="resource" t="Include" />
       </e>
     </e>
   </component>

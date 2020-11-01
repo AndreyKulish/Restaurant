@@ -22,12 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add base files">
+    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add base controllers">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Resaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AppState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/AppState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Admin1/RiderProjects/Restaurant/uk.kiev.ut.itz.kulish/controllers/RowController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/17/d811e6f4/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/825C30D4-A4CF-464C-B7EB-B8145854D1F8/dc/cd981109/System.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,9 +50,7 @@
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Worker.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Resaurant.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Product.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Client.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/Program.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AppState.cs" />
@@ -62,9 +62,21 @@
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/MenuController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Client.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1jgbOT965u0rKOIWAEdG0QEXn1l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,6 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -108,7 +121,7 @@
       <updated>1604228649355</updated>
       <workItem from="1604228653036" duration="2821000" />
       <workItem from="1604239478427" duration="3765000" />
-      <workItem from="1604245751597" duration="2801000" />
+      <workItem from="1604245751597" duration="8079000" />
     </task>
     <task id="LOCAL-00001" summary="Add base files">
       <created>1604245856102</created>
@@ -117,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604245856103</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add base controllers">
+      <created>1604248575140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604248575140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add base files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base files" />
+    <MESSAGE value="Add base controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add base controllers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="248" y="135" key="DiffContextDialog" timestamp="1604245866158">
@@ -170,13 +191,40 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="432" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604228649290" />
-    <state x="1084" y="374" key="RiderGenerateDialog" timestamp="1604247887291">
+    <state x="1084" y="374" key="RiderGenerateDialog" timestamp="1604251990644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1084" y="374" key="RiderGenerateDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604247887291" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604245869429">
+    <state x="1084" y="374" key="RiderGenerateDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604251990644" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1604253381478">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245869429" />
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604253381478" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604248577670">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604248577670" />
+    <state x="959" y="299" width="644" height="801" key="find.popup" timestamp="1604253147004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="959" y="299" width="644" height="801" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604253147004" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs</url>
+          <line>15</line>
+          <properties documentPath="C:\Users\Admin1\RiderProjects\Restaurant\uk.kiev.ut.itz.kulish\db\PushController.cs" initialLine="14">
+            <startOffsets>
+              <option value="377" />
+            </startOffsets>
+            <endOffsets>
+              <option value="436" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
