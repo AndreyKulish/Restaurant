@@ -14,6 +14,14 @@ namespace Restaurant.dao
         {
         }
 
+        /*
+         * Привет костылям))
+         */
+        public static void setInstance(Menu menu)
+        {
+            INSTANCE = menu;
+        }
+
         public static Menu getInstance()
         {
             if (INSTANCE == null)

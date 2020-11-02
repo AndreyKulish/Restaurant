@@ -7,7 +7,7 @@ namespace Restaurant.db
 {
     public class PushController
     {
-        public void pushData()
+        public static void pushData()
         {
             Menu menu = Menu.getInstance();
             Story story = Story.getInstance();

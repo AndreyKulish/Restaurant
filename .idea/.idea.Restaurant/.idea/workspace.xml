@@ -22,13 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add base controllers">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add base ser and diser functionality">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AppState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/AppState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Admin1/RiderProjects/Restaurant/uk.kiev.ut.itz.kulish/controllers/RowController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/17/d811e6f4/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/825C30D4-A4CF-464C-B7EB-B8145854D1F8/dc/cd981109/System.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -52,7 +52,6 @@
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Product.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/Program.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AppState.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ICrudDao.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AbstractCrudDao.cs" />
@@ -63,12 +62,13 @@
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Client.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +121,8 @@
       <updated>1604228649355</updated>
       <workItem from="1604228653036" duration="2821000" />
       <workItem from="1604239478427" duration="3765000" />
-      <workItem from="1604245751597" duration="8079000" />
+      <workItem from="1604245751597" duration="8423000" />
+      <workItem from="1604352024481" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="Add base files">
       <created>1604245856102</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604248575140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add base ser and diser functionality">
+      <created>1604254820592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604254820592</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,12 +163,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add base files" />
     <MESSAGE value="Add base controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base controllers" />
+    <MESSAGE value="Add base ser and diser functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add base ser and diser functionality" />
   </component>
   <component name="WindowStateProjectService">
     <state x="248" y="135" key="DiffContextDialog" timestamp="1604245866158">
@@ -199,10 +209,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604253381478" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604248577670">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604254821882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604248577670" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604254821882" />
     <state x="959" y="299" width="644" height="801" key="find.popup" timestamp="1604253147004">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -216,10 +226,10 @@
           <line>15</line>
           <properties documentPath="C:\Users\Admin1\RiderProjects\Restaurant\uk.kiev.ut.itz.kulish\db\PushController.cs" initialLine="14">
             <startOffsets>
-              <option value="377" />
+              <option value="384" />
             </startOffsets>
             <endOffsets>
-              <option value="436" />
+              <option value="443" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

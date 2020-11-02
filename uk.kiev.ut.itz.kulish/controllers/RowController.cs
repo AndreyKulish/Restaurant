@@ -1,4 +1,5 @@
 ﻿using System;
+using Restaurant.db;
 
 namespace Restaurant.controllers
 {
@@ -49,12 +50,12 @@ namespace Restaurant.controllers
 
         private void doStart()
         {
-            
+            PullController.pullData();
         }
 
         private void doSave()
         {
-            
+            PushController.pushData();
         }
 
         private void doInfo()

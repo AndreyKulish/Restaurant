@@ -7,30 +7,55 @@ namespace Restaurant.db
 {
     public class PullController
     {
-        public void pullData()
+        public static void pullData()
         {
-            XmlSerializer formatter = new XmlSerializer(typeof(Menu));
-            using (FileStream fs = new FileStream("menu.xml", FileMode.OpenOrCreate))
+            XmlSerializer formatter;
+            try
             {
-                Menu menu = (Menu) formatter.Deserialize(fs);
- 
-                Console.WriteLine("Меню десериализованно");
+                formatter = new XmlSerializer(typeof(Menu));
+                using (FileStream fs = new FileStream("menu.xml", FileMode.OpenOrCreate))
+                {
+                    Menu menu = (Menu) formatter.Deserialize(fs);
+                    Menu.setInstance(menu);
+
+                    Console.WriteLine("Меню десериализованно");
+                }
             }
-            
-            formatter = new XmlSerializer(typeof(Story));
-            using (FileStream fs = new FileStream("story.xml", FileMode.OpenOrCreate))
+            catch (Exception e)
             {
-                Story story = (Story) formatter.Deserialize(fs);
- 
-                Console.WriteLine("Склад десериализован");
+                Console.WriteLine(e);
             }
-            
-            formatter = new XmlSerializer(typeof(dao.Restaurant));
-            using (FileStream fs = new FileStream("restaurant.xml", FileMode.OpenOrCreate))
+
+            try
             {
-                dao.Restaurant restaurant = (dao.Restaurant) formatter.Deserialize(fs);
- 
-                Console.WriteLine("Ресторан десериализован");
+                formatter = new XmlSerializer(typeof(Story));
+                using (FileStream fs = new FileStream("story.xml", FileMode.OpenOrCreate))
+                {
+                    Story story = (Story) formatter.Deserialize(fs);
+                    Story.setInstance(story);
+
+                    Console.WriteLine("Склад десериализован");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            try
+            {
+                formatter = new XmlSerializer(typeof(dao.Restaurant));
+                using (FileStream fs = new FileStream("restaurant.xml", FileMode.OpenOrCreate))
+                {
+                    dao.Restaurant restaurant = (dao.Restaurant) formatter.Deserialize(fs);
+                    dao.Restaurant.setInstance(restaurant);
+                
+                    Console.WriteLine("Ресторан десериализован");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
         }
     }
