@@ -7,7 +7,8 @@
             CREATE,
             READ,
             UPDATE,
-            DELETE
+            DELETE,
+            DEFAULT
         }
 
         public enum SelectedDao
@@ -17,10 +18,12 @@
             MENU,
             PRODUCT,
             RESTAURANT,
-            WORKER
+            WORKER,
+            STORY,
+            DEFAULT
         }
 
-        public static CrudMode crudMode;
-        public static SelectedDao selectedDao;
+        public static CrudMode crudMode = CrudMode.DEFAULT;
+        public static SelectedDao selectedDao = SelectedDao.DEFAULT;
     }
 }

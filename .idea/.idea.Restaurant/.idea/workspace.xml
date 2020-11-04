@@ -22,14 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add base ser and diser functionality">
+    <list default="true" id="c300c542-6bdc-42c3-ac6b-bf019ee4fa0b" name="Default Changelist" comment="Add try/catch and fix bug with pull data">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restaurant/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/AppState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/AppState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ClientController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/DishController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/DishController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/MenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RestaurantController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RestaurantController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +57,27 @@
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Worker.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Resaurant.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Product.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/Program.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AppState.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ICrudDao.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/AbstractCrudDao.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RestaurantController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ClientController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/DishController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/MenuController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Client.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Menu.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Story.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PushController.cs" />
-        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" />
         <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/db/PullController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Restaurant.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/AppState.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/StoryController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RestaurantController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/MenuController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/ClientController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/WorkerController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/RowController.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/dao/Dish.cs" />
+        <option value="$PROJECT_DIR$/uk.kiev.ut.itz.kulish/controllers/DishController.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +131,9 @@
       <workItem from="1604228653036" duration="2821000" />
       <workItem from="1604239478427" duration="3765000" />
       <workItem from="1604245751597" duration="8423000" />
-      <workItem from="1604352024481" duration="1810000" />
+      <workItem from="1604352024481" duration="2118000" />
+      <workItem from="1604403643755" duration="14653000" />
+      <workItem from="1604496116248" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="Add base files">
       <created>1604245856102</created>
@@ -145,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604254820592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add try/catch and fix bug with pull data">
+      <created>1604354122342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604354122342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +188,8 @@
     <MESSAGE value="Add base files" />
     <MESSAGE value="Add base controllers" />
     <MESSAGE value="Add base ser and diser functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base ser and diser functionality" />
+    <MESSAGE value="Add try/catch and fix bug with pull data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add try/catch and fix bug with pull data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="248" y="135" key="DiffContextDialog" timestamp="1604245866158">
@@ -181,30 +200,35 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1157" y="598" width="484" height="204" key="Github.ShareDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245422796" />
-    <state width="2517" height="347" key="GridCell.Tab.0.bottom" timestamp="1604245736381">
+    <state width="2517" height="345" key="GridCell.Tab.0.bottom" timestamp="1604428796120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245736381" />
-    <state width="2517" height="347" key="GridCell.Tab.0.center" timestamp="1604245736381">
+    <state width="2517" height="345" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604428796120" />
+    <state width="2517" height="345" key="GridCell.Tab.0.center" timestamp="1604428796120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245736381" />
-    <state width="2517" height="347" key="GridCell.Tab.0.left" timestamp="1604245736381">
+    <state width="2517" height="345" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604428796120" />
+    <state width="2517" height="345" key="GridCell.Tab.0.left" timestamp="1604428796120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245736381" />
-    <state width="2517" height="347" key="GridCell.Tab.0.right" timestamp="1604245736381">
+    <state width="2517" height="345" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604428796120" />
+    <state width="2517" height="345" key="GridCell.Tab.0.right" timestamp="1604428796120">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604245736381" />
+    <state width="2517" height="345" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604428796120" />
     <state x="872" y="432" key="Rider.ProjectTemplateDialog.Size" timestamp="1604228649290">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="432" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604228649290" />
-    <state x="1084" y="374" key="RiderGenerateDialog" timestamp="1604251990644">
+    <state x="1084" y="374" key="RiderGenerateDialog" timestamp="1604428367734">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1084" y="374" key="RiderGenerateDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604251990644" />
+    <state x="1084" y="374" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604428367734" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1604253381478">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

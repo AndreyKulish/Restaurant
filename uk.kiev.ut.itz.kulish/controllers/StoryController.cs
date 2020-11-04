@@ -2,26 +2,26 @@
 
 namespace Restaurant.controllers
 {
-    public class MenuController: AbstractCrudDao
+    public class StoryController: AbstractCrudDao
     {
         public override void Create()
         {
-            Console.WriteLine("Меню создать");
+            Console.WriteLine("Склад создать");
         }
 
         public override void Read()
         {
-            Console.WriteLine("Меню смотреть");
+            Console.WriteLine("Склад смотреть");
         }
 
         public override void Update()
         {
-            Console.WriteLine("Меню обновить");
+            Console.WriteLine("Склад обновить");
         }
 
         public override void Delete()
         {
-            Console.WriteLine("Меню удалить");
+            Console.WriteLine("Склад удалить");
         }
     }
 }

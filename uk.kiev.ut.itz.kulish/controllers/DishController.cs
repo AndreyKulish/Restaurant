@@ -1,32 +1,39 @@
-﻿namespace Restaurant.controllers
+﻿using System;
+using Restaurant.dao;
+
+namespace Restaurant.controllers
 {
     public class DishController: AbstractCrudDao
     {
-
-        public void DishProcessor()
+        public DishController()
         {
-            crudSelector();
+            
         }
-
-
+        
         public override void Create()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Блюдо создать");
         }
 
         public override void Read()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Блюдо которые есть");
+            Menu menu = Menu.getInstance();
+
+            foreach (Dish dish in menu.Dish)
+            {
+                Console.WriteLine("Блюдо: " + dish.Name);
+            }
         }
 
         public override void Update()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Блюдо обновить");
         }
 
         public override void Delete()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Блюдо удалить");
         }
     }
 }

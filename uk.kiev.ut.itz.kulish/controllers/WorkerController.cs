@@ -1,32 +1,28 @@
-﻿namespace Restaurant.controllers
+﻿using System;
+
+namespace Restaurant.controllers
 {
     public class WorkerController: AbstractCrudDao
     {
 
-        public void WorkerProcessor()
-        {
-            crudSelector();
-        }
-
-
         public override void Create()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Рабочий создать");
         }
 
         public override void Read()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Рабочий смотреть");
         }
 
         public override void Update()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Рабочий обновить");
         }
 
         public override void Delete()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Рабочий удалить");
         }
     }
 }

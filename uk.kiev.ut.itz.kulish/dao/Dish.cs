@@ -7,6 +7,7 @@ namespace Restaurant.dao
         private List<Product> _products;
         private int _price;
         private int _timeCooking;
+        private string _name;
 
         public List<Product> Products
         {
@@ -24,6 +25,12 @@ namespace Restaurant.dao
         {
             get => _timeCooking;
             set => _timeCooking = value;
+        }
+
+        public string Name
+        {
+            get => _name;
+            set => _name = value;
         }
     }
 }

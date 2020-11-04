@@ -1,32 +1,27 @@
-﻿namespace Restaurant.controllers
+﻿using System;
+
+namespace Restaurant.controllers
 {
     public class RestaurantController: AbstractCrudDao
     {
-
-        public void RestaurantProcessor()
-        {
-            crudSelector();
-        }
-
-
         public override void Create()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Ресторан создать");
         }
 
         public override void Read()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Ресторан смотреть");
         }
 
         public override void Update()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Ресторан обновить");
         }
 
         public override void Delete()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Ресторан удалить");
         }
     }
 }

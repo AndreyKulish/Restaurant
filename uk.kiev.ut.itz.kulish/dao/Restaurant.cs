@@ -11,6 +11,7 @@ namespace Restaurant.dao
         private List<Worker> _workers;
         private List<Client> _сlients;
         private string _description;
+        private string _name;
         private static Restaurant INSTANCE;
 
         private Restaurant()
@@ -58,5 +59,10 @@ namespace Restaurant.dao
             set => _сlients = value;
         }
 
+        public string Name
+        {
+            get => _name;
+            set => _name = value;
+        }
     }
 }

@@ -23,6 +23,7 @@
           <e p="ProductController.cs" t="Include" />
           <e p="RestaurantController.cs" t="Include" />
           <e p="RowController.cs" t="Include" />
+          <e p="StoryController.cs" t="Include" />
           <e p="WorkerController.cs" t="Include" />
         </e>
         <e p="dao" t="Include">

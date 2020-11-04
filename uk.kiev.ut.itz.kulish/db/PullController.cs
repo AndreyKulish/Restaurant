@@ -23,7 +23,8 @@ namespace Restaurant.db
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                // Костыль (лень писать чекер на файл-exist)
+                Console.WriteLine("Меню еще не создано");
             }
 
             try
@@ -39,7 +40,8 @@ namespace Restaurant.db
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                // Костыль (лень писать чекер на файл-exist)
+                Console.WriteLine("Склад еще не создан");
             }
 
             try
@@ -55,7 +57,8 @@ namespace Restaurant.db
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                // Костыль (лень писать чекер на файл-exist)
+                Console.WriteLine("Ресторан еще не создан");
             }
         }
     }

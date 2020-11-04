@@ -47,6 +47,7 @@
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\ProductController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\RestaurantController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\RowController.cs" />
+        <Compile Include="uk.kiev.ut.itz.kulish\controllers\StoryController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\controllers\WorkerController.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Client.cs" />
         <Compile Include="uk.kiev.ut.itz.kulish\dao\Dish.cs" />
